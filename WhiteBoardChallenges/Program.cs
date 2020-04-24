@@ -10,9 +10,13 @@ namespace WhiteBoardChallenges
     {
         static void Main(string[] args)
         {
+
+            
+            Console.WriteLine("Please input any number into the console.");
+            int userInput = Convert.ToInt32(Console.ReadLine());
             
 
-            for (int i = 9; i >= 0; i--)
+            for (int i = 0; i < userInput; i++)
             {
                 Console.WriteLine(i);            
             }
