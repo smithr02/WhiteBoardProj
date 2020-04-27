@@ -18,7 +18,7 @@ namespace WhiteBoardChallenges
 
             for (int i = 0; i < str.Length; i++)
             {
-                Console.WriteLine(i);            
+                Console.WriteLine(str[i]);            
             }
             Console.ReadLine();
         }
