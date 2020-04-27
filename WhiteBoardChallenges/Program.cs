@@ -11,19 +11,26 @@ namespace WhiteBoardChallenges
         static void Main(string[] args)
         {
 
-            string str = "Hello World";
-            //Console.WriteLine("Please input any number into the console.");
-            //int userInput = Convert.ToInt32(Console.ReadLine());
+            //string str = "Hello World";
+            Console.WriteLine("Please input any number into the console.");
+            int userInput = Convert.ToInt32(Console.ReadLine());
 
 
-            for (int i = 0; i < str.Length; i++)
+            //for (int i = 0; i < str.Length; i++)
+            //{
+            //    if(i % 3 == 0)
+            //    {
+            //        Console.WriteLine(str[i]);
+            //    }           
+            //}
+            //Console.ReadLine();
+
+            
+            while(userInput != 42)
             {
-                if(i % 3 == 0)
-                {
-                    Console.WriteLine(str[i]);
-                }           
+                Console.WriteLine("Please enter the number 42");
+                userInput = Convert.ToInt32(Console.ReadLine());
             }
-            Console.ReadLine();
         }
     }
 }
