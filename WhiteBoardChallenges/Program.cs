@@ -12,8 +12,8 @@ namespace WhiteBoardChallenges
         {
 
             //string str = "Hello World";
-            Console.WriteLine("Please input any number into the console.");
-            int userInput = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine("Please input any number into the console.");
+            //int userInput = Convert.ToInt32(Console.ReadLine());
 
 
             //for (int i = 0; i < str.Length; i++)
@@ -25,12 +25,16 @@ namespace WhiteBoardChallenges
             //}
             //Console.ReadLine();
 
-            
-            while(userInput != 42)
-            {
-                Console.WriteLine("Please enter the number 42");
-                userInput = Convert.ToInt32(Console.ReadLine());
-            }
+
+            //while(userInput != 42)
+            //{
+            //    Console.WriteLine("Please enter the number 42");
+            //    userInput = Convert.ToInt32(Console.ReadLine());
+            //}
+
+            CalculatorMadness calc = new CalculatorMadness();
+            calc.RunCalculations();
+            Console.ReadLine();
         }
     }
 }
