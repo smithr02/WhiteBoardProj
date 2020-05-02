@@ -6,19 +6,20 @@ using System.Threading.Tasks;
 
 namespace WhiteBoardChallenges
 {
-    class Applications
+    public abstract class Applications
     {
         public string ApplicationName;
         public string ApplicationType;
         public double RequriedRam;
         public double RequriedStorage;
+        public double RequiredEffectiveMemory;
 
         public Applications()
         {
             ApplicationName = "Slack";
             ApplicationType = "Messaging service";
-            RequriedRam = 4.0;
-            RequriedStorage = 0.512;
+            RequriedRam = 4.0; //In Gigabytes
+            RequriedStorage = 0.512; //In Gigabytes
         }
     }
 }

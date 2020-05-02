@@ -25,10 +25,7 @@ namespace WhiteBoardChallenges
 
         public void InstallApplication(Applications application)
         {
-            if (TemporaryMemory.TotalGigbytes >= application.RequriedRam && Storage.AvailableStorage >= application.RequriedStorage)
-            {
-                Storage.ApplicationsInHardDrive.Add(application);
-            }
+            Processor.ProcessInstall(application, Storage, TemporaryMemory, Graphics);
         }
     }
 

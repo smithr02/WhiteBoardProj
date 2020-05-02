@@ -8,13 +8,15 @@ namespace WhiteBoardChallenges
 {
     class GPU
     {
-        string Manufacturer;
-        Double EffectiveMemory;
+        public string Manufacturer;
+        public double RequiredEffectiveMemory;
 
-        public GPU(string Manufacturer, Double EffectiveMemory)
+        public GPU(string Manufacturer, double EffectiveMemory)
         {
             this.Manufacturer = Manufacturer;
-            this.EffectiveMemory = EffectiveMemory;
+            this.RequiredEffectiveMemory = EffectiveMemory;
         }
+
+
     }
 }

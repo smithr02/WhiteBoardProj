@@ -8,10 +8,10 @@ namespace WhiteBoardChallenges
 {
     class RAM
     {
-        public Double TotalGigbytes;
-        public String Brand;
+        public double TotalGigbytes;
+        public string Brand;
 
-        public RAM(Double TotalGigbytes, String Brand)
+        public RAM(double TotalGigbytes, string Brand)
         {
             this.TotalGigbytes = TotalGigbytes;
             this.Brand = Brand;
