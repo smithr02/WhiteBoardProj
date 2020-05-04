@@ -13,10 +13,8 @@ namespace WhiteBoardChallenges
             Computer comp = new Computer();
             Games game1 = new Games(2.0,"BatMan Returns", "Game", 2.0, 8.0);
             Games game2 = new Games(2.5, "Street Fighter", "Game", 2.1, 7.0);
-            TextEditor Tex = new TextEditor("BatMan Returns", "TexEditor", 2.0, 8.0);
-            // console write: what system has eg comp.gpu.effective memory
-            comp.motherB.InstallApplication(game1);
-            //conwrt: comp.hd.avalMem is ....
+            TextEditor Tex = new TextEditor("BatMan Returns", "TexEditor", 2.0, 8.0);           
+            comp.motherB.InstallApplication(game1);            
             comp.motherB.InstallApplication(game2);
             comp.motherB.InstallApplication(Tex);
 
